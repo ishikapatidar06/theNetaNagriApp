@@ -19,7 +19,7 @@ const CoverPage = () => {
   }, []);
 
   return (
-    <div className="pt-20 relative">
+    <div className="pt-16 relative">
       {/* <div className="overflow-hidden w-full bg-black">
         <div className="whitespace-nowrap">
           <span className="marquee text-white text-sm sm:text-lg sm:p-2">

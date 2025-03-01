@@ -77,7 +77,7 @@ export const PricingItem = ({ pricing }) => {
       <p className="opacity-50 mb-2">{description}</p>
       <ul className="flex flex-col">
         {features.map((item, i) => (
-          <li className="mb-2" key={i}>
+          <li className="mb-1 text-base" key={i}>
             <FontAwesomeIcon
               icon={faCheckCircle}
               className={`${
